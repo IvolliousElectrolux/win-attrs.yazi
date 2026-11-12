@@ -15,9 +15,9 @@ A simple Yazi fetcher plugin to asynchronously retrieve Windows file attributes 
 
 ```toml
 [[plugin.prepend_fetchers]]
-id   = "win-attrs"
-url = "*"
-run  = "win-attrs"
+url   = "*"
+run   = "win-attrs"
+group = "win-attrs"
 ```
 
 ## Usage
